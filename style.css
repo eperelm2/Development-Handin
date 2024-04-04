@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 100px;
+    font-family: 'Judson', serif;
+    flex-direction:column;
+    display: flex;
+  }
+
+  h1{
+    text-align:center;
+    font-size:46px;
+    padding:0px;
+  }
+  
+  .body-text{
+    font-size:28px;
+    font-weight: bolder;
+  }
+
+  .description {
+    text-align:center;
+  }
+
+  th, td {
+    border: 1px solid black;
+    border-top-width: 2px; /* thicker top border */
+    border-bottom-color: 316BB4; /* red bottom border */
+    padding: 8px;
+    text-align: left;
+    font-weight:lighter
+  }
+
+  .indentation{
+    display:inline-block;
+    margin-left:3em;
+  }
+
+  .bold{
+    font-weight:bold;
+  }
+
+  .first-th{
+    font-weight: bold;
+  }
