@@ -9,27 +9,39 @@
   <body>
 
     <h1>Development</h1>
-    <h2 class="description">Competitive Comparison and Functional Interface</h2>
-  
+    <h2 class="description">Competitive Comparisons and Functional Interface</h2>
+    
+    <img class="first-pic" src="Screenshot 2024-04-04 at 3.47.50 PM.png">
    
     <h2 class="body-text">Overview</h2>
-    During this project, I focused on comparisons between competitor company’s web applications 
-    and how their features, or lack thereof, can be used to create a functional aggregator 
-    interface. To start, I created a Competitive Comparison chart between three competitive 
-    companies utilizing favoriting functionality. From here, I reflected on the different 
-    companies’ strengths and weaknesses and how they differ. I then utilized React to create 
-    an interface storing songs, with the ability to filter, sort, and add to an aggregate liked 
-    song list. 
-    <br> <br>
-
-
-    This project offered the opportunity to utilize and improve my skills with statistical testing and 
-    learn the impact of design choices. I can now identify the correct statistical test to reach confident 
-    conclusions about two alternate designs' impact on a user's interactions and decisions with/on a webpage.
+    During this project, I focused on comparing competitor companies' web applications by identifying features, or lack thereof, that can be used to create an efficient functional aggregator interface. 
+    Many companies try to differentiate their interfaces by including interesting buttons or attempting to declutter the webpage. I investigated the use of these features by starting with 
+    a Competitive Comparison Chart between three companies utilizing favoriting functionality: Spotify, Amazon, and Gmail. From here, I reflected on the three companies' strengths and weaknesses and how they differ. I then took this information and utilized React to create an interface storing songs, which can filter, sort, and add to an aggregate liked song list.
 
      <h2 class="body-text">Comparative Analysis</h2>
 
-     I looked at the differences between competitors Spotify, Amazon, and Gmail for adding items to a favorites list. I identified key information and how each interface incorporates aggregators. I also investigated the use of filtering and sorting within the favoriting aggregator. 
+     I looked at the differences between competitors Spotify, Amazon, and Gmail and how they handle adding items to a favorites list. I identified key information and how each interface incorporates aggregators. I also investigated the use of filtering and sorting within the favoriting aggregator. 
+     <br><br>
+
+     <div class = "web-collect">
+        <div class="web">
+            Spotify
+            <img class="website-pictures" src="Screenshot 2024-04-04 at 6.01.28 PM.png">
+        </div>
+        <div class="web">
+            Amazon
+            <img class="website-pictures" src="Screenshot 2024-04-04 at 6.02.08 PM.png">
+        </div>
+        <div class="web">
+            Gmail
+            <img class="website-pictures" src="Screenshot 2024-04-04 at 6.03.03 PM.png">
+        </div>
+
+     </div>
+
+     <h4>Competitive Comparison Chart:</h4>
+
+     Within this chart, I compare similar or differing features incorporated by the three companies.
      <br><br>
 
     <table>
@@ -58,7 +70,7 @@
         </th>
       </tr>
       <tr>
-        <th class="first-th">Select multiple elements in favorite list at one time</th>
+        <th class="first-th">Select multiple elements in favorites list at one time</th>
         <th> 
             Yes;
             <br><br>
@@ -77,38 +89,38 @@
         </th>
       </tr>
       <tr>
-        <th class="first-th">Option to add to the favorite list while looking at the list </th>
+        <th class="first-th">Option to add to favorites list while looking at the list </th>
         <th> 
             No;
             <br><br>
-            You need to go to the search or another screen to add to the Liked Songs list
+            The user needs to search for a song or go to another playlist to add to the Liked Songs list
 
             
         </th>
         <th>
             Yes;
             <br><br>
-            You can move items from your saved for later into the cart as well as recommended items
+            Can move items from your 'Saved for Later' into the cart as well as recommended items
         </th>
         <th>
             No;
             <br><br>
-            You cannot add emails not included in the favorites list when you are looking at the favorites list
+            Cannot add emails not included in the starred list when you are currently looking at the list
         </th>
       </tr>
       <tr>
-        <th class="first-th">Can search in favorite list </th>
+        <th class="first-th">Can search in favorites list </th>
         <th> 
             Yes;
             <br><br>
-            Have the ability to search for songs in Linked List
+            Have the ability to search for songs in Liked list
 
             
         </th>
         <th>
             No;
             <br><br>
-            Cannot search in your cart for different items
+            Cannot search your cart for specific items
         </th>
         <th>
             Yes;
@@ -121,7 +133,7 @@
         <th> 
             No;
             <br><br>
-            There is no icon or identification that shares that the song is in the Liked Songs (unless you go to add it to the playlist)
+            There is no icon or identification that shares that the song is in the Liked Songs (unless you click 'Add to playlist')
 
             
         </th>
@@ -141,13 +153,13 @@
         <th> 
             No;
             <br><br>
-            Since the list the users favorite songs, there are no recommendations based on similar user’s preferences
+            There are no recommendations based on a similar user’s preferences or similar songs/genres
             
         </th>
         <th>
             Yes;
             <br><br>
-            If you scroll down, there are recommended items to add to a user’s cart based on similar users or similar products
+            There are recommended items to add to a user’s cart based on similar users or similar products
         </th>
         <th>
             No;
@@ -159,22 +171,36 @@
     
     <h3 class="body-text"> Summary</h3>
     <h4>Conclusions:</h4>
-    From the Competitive Comparison Chart, I saw that two of the websites had no way of indicating that an item was included in their favorites list/cart. Not including this feature makes it extremely difficult to know if you have already added an item or not, likely confusing the user. The user also has the ability to filter through the favorites list, but only on two of the applications. Incorporating this filtering feature likely increases a user’s effectiveness when interacting with an aggregator. In different applications, there are unique possibilities for recommendations of what to add to the aggregator list based on realisticness. For example, recommendations for Starred Emails would not be particularly helpful because an AI algorithm will likely not apply to what a user finds helpful or worthy of a star. On Spotify, the design demonstrates clear filtering and sorting to allow users to quickly go through the songs. However, Spotify does not offer recommendations because a user’s favorite and most enjoyable songs can only be discerned by that user. Additionally, the visual hierarchy of characteristics and songs is clear and understandable by a user. 
-
-
-    <h4>Features to implement:</h4>
-    When building my own interface, I would aim for clarity when an object has been added to an aggregator list. I would also like to be able to see the contents of the list and add to it at the same time. I also think visual awareness of the possible filtering features is a great addition and beneficial to a user. Overall, I think the more clarity and awareness there is for existing features the less confusion users face.  
     
+    From the Competitive Comparison Chart, I saw that two websites did not indicate that an item was included in their favorites list/cart. Not including this feature makes it extremely difficult to know if you have already added an item, likely confusing the user. The user can also filter through the favorites list, but only on two applications. This filtering feature increases a user’s effectiveness when interacting with the aggregator. In different applications, there are unique possibilities for recommendations of what to add to the aggregator list based on realisticness. For example, recommendations for Starred Emails would not be particularly helpful because an AI algorithm will likely not apply to what a user finds helpful or worthy of starring. However, this can be particularly helpful for an application like Amazon. Gmail and Amazon also use conceputal models to demonstrate an email with a letter icon and a shopping cart to represent a physical cart.<br><br>
+    Spotify's design demonstrates clear filtering and sorting to allow users to browse the songs quickly. However, Spotify does not offer recommendations because only a specific user can discern their favorite and most enjoyable songs. Additionally, the visual hierarchy of characteristics and songs is clear and understandable by a user.       <br><br>
+
+    There is no clarity on Amazon if an item has been added to your cart when scrolling through offered items. However, the application shares similar products when the user is looking at the cart to help find the best deals and prices. The interface can also make removing an item from the cart difficult, especially due to small fonts and similarly named buttons.    <br><br>
+
+    For Gmail, there is a clear classification if an email has been Starred and marked as a favorite, but there is no way to add similar emails to the Starred folder when looking at all Starred emails.
+
+    
+    <h4>Features to implement:</h4>
+    When building my own interface, I would aim for clarity about when an object has been added to an aggregator list. I would also like to see the list's contents and add to it simultaneously. Visual awareness of the possible filtering features is a great addition and beneficial to a user. With this, I want to incorporate UI that allows a user to know a button has been pressed or is being hovered over. Overall, the more clarity and awareness there is for existing features and their functionality, the less confusion users face.    
     <h2 class="body-text">Implementation of Interface</h3>
     
-        For my interface, I am going to create a list of songs, including their cover photo, artist, title, length, rating (out of 5 stars), and genre. I am going to create two filter features to filter based on the rating of the song as well as the genre of the song. I plan on having sort functionality that organizes the songs based on their lengths. Each song will have the option to be favorited and added to an aggregator list. A user can see how many songs are in the favorites list as well as their title, length, and have the ability to remove the songs from this list. The user is also able to see if an item is in the favorites list on the song card in the dashboard. A user can continue to click the heart icon on a song’s card to add or remove the song from the favorites list. <br> <br>
-
+        I created a dashboard with a list of songs, including their cover photo, artist, title, length, rating (out of 5 stars), and genre. I have two filterable features to allow filtering based on the rating of the song as well as the genre of the song. I have a sort functionality that organizes the songs based on their lengths. Each song will have the option to be favorited and added to an aggregator list. A user can see how many songs are in the favorites list, as well as the songs' titles and lengths, and can remove the songs from this list. The user can also see if an item is in the favorites list on the song card in the dashboard. A user can continue to click the heart icon on a song's card to add or remove the song from the favorites list.
         <!-- <img class="first-picture" src="Screenshot 2024-03-13 at 2.35.51 PM.png"> -->
 
+        <br><br>
+        <a href="https://development-emily-perelman.vercel.app">Functioning Interface</a>
+        <br><br>
+        <div class="web">
+            Filtering, sorting, and adding to aggregate list:
+            <br><br>
+            <img class="website-pictures" src="Screenshot 2024-04-04 at 7.20.08 PM.png">
+            
+        </div>
+        
 
     <h2 class="body-text">Takeaways and Limitations</h2> 
 
-    Overall, through analyses of competitive companies, I was able to identify positive and negative features of interfaces. I utilized this information to design a functional aggregator interface listing songs, identifying characteristics that can be filtered and sorted on, and the ability to add these songs to an aggregated favorites list.  
+    Overall, I identified positive and negative features of favoriting interfaces through analyses of competitive companies. I utilized this information to design a functional and effective aggregator interface listing songs, identifying characteristics that can be filtered and sorted, and the ability to add these songs to an aggregated favorites list.
 
   </body>
 
